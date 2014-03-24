@@ -222,3 +222,14 @@ footer li { color: black; }
     }
     
 }
+footer ul {
+margin:0;
+padding:0;
+}
+
+footer li {
+list-style-type:none;
+display:inline;
+padding:0 15px;
+border-left:solid black 1px;
+}
