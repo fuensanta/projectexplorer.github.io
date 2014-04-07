@@ -15,12 +15,19 @@ header {
 
 body {
     font: 16px/24px "Calibri", serif
-  
-
+        }
+ 
+body>P { 
+    line-height: 10.30       
 }
+
+containter{
+    text-align:center
+        }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "calibri", sans-serif;
+    color:666666
 }
 
 h1 {
@@ -45,6 +52,10 @@ img {
 
 header {
     margin-bottom: 10px;
+}
+
+margin {
+    margin-top: 60px;
 }
 
 nav a {
@@ -118,7 +129,14 @@ footer ul {
     list-style-type: none;
 }
 
-footer li { color: black; }
+footer li {
+    color: black; 
+    font-size: 12px            
+}
+
+ul li{
+    font-family: arial, sans-serif;
+}
 
 .wrapper {
     margin: 0 auto;
@@ -200,9 +218,16 @@ footer li { color: black; }
     text-decoration: none;
 }
 
+.social{
+    text-align:center;
+    padding: 10px;
+    border: none;
+        }
+
 .featured img {
     margin-top: 5px;
 }
+
 
 /* END modules */
 
